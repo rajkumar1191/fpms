@@ -1,0 +1,22 @@
+<!-- Left Sidebar -->
+<aside
+  id="leftsidebar"
+  class="sidebar"
+  (mouseenter)="mouseHover()"
+  (mouseleave)="mouseOut()"
+  [style.height]="listMaxHeight + 'px'"
+>
+  <!-- Menu -->
+  <div class="menu">
+    <ul class="list">
+      <li>
+        <a routerLink="/home" class="menu-top"> Dashboard </a>
+      </li>
+      <li>
+        <a routerLink="/investment-detail" class="menu-top"> Investment Details </a>
+      </li>
+    </ul>
+  </div>
+  <!-- #Menu -->
+</aside>
+<!-- END Left Sidebar -->

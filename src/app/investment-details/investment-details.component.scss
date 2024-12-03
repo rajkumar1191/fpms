@@ -1,0 +1,17 @@
+.btn-container {
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+.profit {
+  color: green;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.loss {
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+}

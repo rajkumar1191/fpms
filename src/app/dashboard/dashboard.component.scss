@@ -1,0 +1,78 @@
+.chart-container {
+  display: flex;
+  gap: 10;
+  justify-content: space-between;
+  flex-direction: row;
+  .stackedChart {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 5px #ccc;
+    min-height: 300px;
+  }
+
+  .profit {
+    color: green;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .loss {
+    color: red;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .chart-container {
+    display: flex;
+    gap: 10;
+    justify-content: space-between;
+    flex-direction: column;
+    .stackedChart {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem;
+      box-shadow: 0px 0px 5px #ccc;
+    }
+
+    .profit {
+      color: green;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    .loss {
+      color: red;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+  }
+}
+@media screen and (max-width: 567px) {
+  .chart-container {
+    display: flex;
+    gap: 10;
+    justify-content: space-between;
+    flex-direction: column;
+    .stackedChart {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      box-shadow: 0px 0px 5px #ccc;
+    }
+
+    .profit {
+      color: green;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    .loss {
+      color: red;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+  }
+}
